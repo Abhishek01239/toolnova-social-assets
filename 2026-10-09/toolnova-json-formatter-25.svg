@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101826"/>
+      <stop offset="1" stop-color="#1B3A4A"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg2)"/>
+  <circle cx="180" cy="140" r="140" fill="#5B8CFF" opacity="0.16"/>
+  <circle cx="940" cy="900" r="200" fill="#2EE6C7" opacity="0.12"/>
+  <rect x="80" y="80" width="920" height="920" rx="36" fill="none" stroke="#8EB6FF" stroke-opacity="0.4" stroke-width="2"/>
+  <text x="120" y="170" fill="#9CC4FF" font-family="Segoe UI, Arial, sans-serif" font-size="28" letter-spacing="4">TOOLNOVA</text>
+  <text x="120" y="250" fill="#F7FBFF" font-family="Segoe UI, Arial, sans-serif" font-size="62" font-weight="700">JSON Formatter</text>
+  <text x="120" y="318" fill="#D5E2F2" font-family="Segoe UI, Arial, sans-serif" font-size="32">Nested objects stay readable</text>
+  <rect x="120" y="370" width="400" height="390" rx="22" fill="#142433" stroke="#2C4A66"/>
+  <text x="150" y="430" fill="#8AA8C4" font-family="Consolas, monospace" font-size="24">before</text>
+  <text x="150" y="490" fill="#E8F1FA" font-family="Consolas, monospace" font-size="22">{"user":{"id":7,</text>
+  <text x="150" y="530" fill="#E8F1FA" font-family="Consolas, monospace" font-size="22">"tags":["a","b"]}}</text>
+  <rect x="560" y="370" width="400" height="390" rx="22" fill="#102A2C" stroke="#2EE6C7" stroke-opacity="0.6"/>
+  <text x="590" y="430" fill="#7EE7D8" font-family="Consolas, monospace" font-size="24">after</text>
+  <text x="590" y="490" fill="#E8F1FA" font-family="Consolas, monospace" font-size="22">{</text>
+  <text x="614" y="530" fill="#E8F1FA" font-family="Consolas, monospace" font-size="22">"user": {</text>
+  <text x="638" y="570" fill="#F2B441" font-family="Consolas, monospace" font-size="22">"id": 7,</text>
+  <text x="638" y="610" fill="#E8F1FA" font-family="Consolas, monospace" font-size="22">"tags": [</text>
+  <text x="662" y="650" fill="#C9E7FF" font-family="Consolas, monospace" font-size="22">"a", "b"</text>
+  <text x="638" y="690" fill="#E8F1FA" font-family="Consolas, monospace" font-size="22">]</text>
+  <text x="614" y="730" fill="#E8F1FA" font-family="Consolas, monospace" font-size="22">}</text>
+  <text x="120" y="840" fill="#F7FBFF" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="600">Beautify in the browser. Copy or download.</text>
+  <text x="120" y="900" fill="#9FB4C8" font-family="Segoe UI, Arial, sans-serif" font-size="26">Free · private · no signup · no watermark</text>
+  <circle cx="930" cy="190" r="42" fill="#123044" stroke="#F2B441" stroke-width="3"/>
+  <path d="M914 190 h32 M930 174 v32" stroke="#F2B441" stroke-width="4"/>
+</svg>

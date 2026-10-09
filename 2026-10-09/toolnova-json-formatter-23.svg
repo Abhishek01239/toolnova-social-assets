@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101828"/>
+      <stop offset="1" stop-color="#1E3A5F"/>
+    </linearGradient>
+    <linearGradient id="card2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1A3350"/>
+      <stop offset="1" stop-color="#121E30"/>
+    </linearGradient>
+    <linearGradient id="accent2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7C5CFF"/>
+      <stop offset="1" stop-color="#3DDCFF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg2)"/>
+  <circle cx="180" cy="180" r="140" fill="#243B66" opacity="0.55"/>
+  <circle cx="940" cy="900" r="200" fill="#17324A" opacity="0.5"/>
+  <text x="80" y="120" fill="#B9A8FF" font-family="Arial, Helvetica, sans-serif" font-size="28" letter-spacing="4">TOOLNOVA</text>
+  <text x="80" y="200" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="60" font-weight="700">JSON Formatter</text>
+  <text x="80" y="268" fill="#E4ECF5" font-family="Arial, Helvetica, sans-serif" font-size="32">Unicode and emoji stay intact</text>
+  <rect x="80" y="330" width="920" height="430" rx="28" fill="url(#card2)" stroke="#314E72"/>
+  <text x="120" y="420" fill="#8FB4FF" font-family="Consolas, Monaco, monospace" font-size="30">{ &quot;note&quot;: &quot;ship it &#128640;&quot; }</text>
+  <text x="120" y="490" fill="#A9E8C8" font-family="Arial, Helvetica, sans-serif" font-size="28">Format</text>
+  <text x="250" y="490" fill="#D7E2EE" font-family="Consolas, Monaco, monospace" font-size="28">{</text>
+  <text x="250" y="540" fill="#D7E2EE" font-family="Consolas, Monaco, monospace" font-size="28">  &quot;note&quot;: &quot;ship it &#128640;&quot;</text>
+  <text x="250" y="590" fill="#D7E2EE" font-family="Consolas, Monaco, monospace" font-size="28">}</text>
+  <text x="120" y="680" fill="#B7C9D6" font-family="Arial, Helvetica, sans-serif" font-size="26">Beautify or minify after a real parse. Strings stay strings.</text>
+  <g transform="translate(820,700)">
+    <circle cx="80" cy="80" r="70" fill="#14263A" stroke="url(#accent2)" stroke-width="8"/>
+    <path d="M80 42 L96 74 H130 L102 94 L112 128 L80 108 L48 128 L58 94 L30 74 H64 Z" fill="#7C5CFF"/>
+  </g>
+  <rect x="80" y="820" width="500" height="80" rx="40" fill="url(#accent2)"/>
+  <text x="122" y="870" fill="#071018" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700">Local · Free · No signup</text>
+</svg>

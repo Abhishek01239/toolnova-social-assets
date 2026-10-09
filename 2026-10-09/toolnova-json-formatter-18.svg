@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+<defs><linearGradient id="g" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#082f49"/><stop offset="1" stop-color="#0e7490"/></linearGradient></defs>
+<rect width="1080" height="1080" fill="url(#g)"/>
+<rect x="80" y="90" width="920" height="900" rx="36" fill="#0b1220" stroke="#22d3ee" stroke-width="3"/>
+<text x="120" y="180" fill="#67e8f9" font-size="28" font-family="Arial, sans-serif">ToolNova</text>
+<text x="120" y="270" fill="#f8fafc" font-size="64" font-family="Arial, sans-serif" font-weight="700">JSON Formatter</text>
+<text x="120" y="340" fill="#cbd5e1" font-size="32" font-family="Arial, sans-serif">Minify. See the bytes you saved.</text>
+<rect x="120" y="410" width="380" height="280" rx="18" fill="#111827"/>
+<text x="150" y="500" fill="#94a3b8" font-size="28" font-family="Arial, sans-serif">Pretty</text>
+<text x="150" y="570" fill="#f8fafc" font-size="48" font-family="Arial, sans-serif">12 KB</text>
+<rect x="540" y="410" width="380" height="280" rx="18" fill="#111827"/>
+<text x="570" y="500" fill="#67e8f9" font-size="28" font-family="Arial, sans-serif">Minified</text>
+<text x="570" y="570" fill="#86efac" font-size="48" font-family="Arial, sans-serif">smaller</text>
+<text x="120" y="790" fill="#e2e8f0" font-size="28" font-family="Arial, sans-serif">Whitespace only. Values stay the same.</text>
+<text x="120" y="860" fill="#e2e8f0" font-size="28" font-family="Arial, sans-serif">Private in the browser. No upload.</text>
+<text x="120" y="930" fill="#67e8f9" font-size="26" font-family="Arial, sans-serif">Free · no signup · no watermark</text>
+</svg>

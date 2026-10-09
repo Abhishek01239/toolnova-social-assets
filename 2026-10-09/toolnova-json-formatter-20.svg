@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1220"/>
+      <stop offset="1" stop-color="#13233F"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1B2A46"/>
+      <stop offset="1" stop-color="#121C30"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3EE0B2"/>
+      <stop offset="1" stop-color="#5B8CFF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <circle cx="900" cy="160" r="180" fill="#5B8CFF" opacity="0.14"/>
+  <circle cx="160" cy="920" r="220" fill="#3EE0B2" opacity="0.1"/>
+  <rect x="80" y="80" width="920" height="920" rx="40" fill="none" stroke="#2C4066" stroke-width="2"/>
+  <text x="100" y="160" fill="#9FB0CC" font-family="Segoe UI, Arial, sans-serif" font-size="28" letter-spacing="3">TOOLNOVA</text>
+  <text x="100" y="250" fill="#F4F7FB" font-family="Segoe UI, Arial, sans-serif" font-size="64" font-weight="700">JSON Formatter</text>
+  <text x="100" y="318" fill="#3EE0B2" font-family="Segoe UI, Arial, sans-serif" font-size="36">Validate only. Do not rewrite it.</text>
+  <rect x="100" y="370" width="880" height="360" rx="24" fill="url(#card)" stroke="#2E456C"/>
+  <text x="140" y="430" fill="#7E93B5" font-family="ui-monospace, Consolas, monospace" font-size="22">payload.json</text>
+  <text x="140" y="490" fill="#D7E3F5" font-family="ui-monospace, Consolas, monospace" font-size="28">{</text>
+  <text x="170" y="536" fill="#8EB4FF" font-family="ui-monospace, Consolas, monospace" font-size="28">"ok"</text>
+  <text x="250" y="536" fill="#D7E3F5" font-family="ui-monospace, Consolas, monospace" font-size="28">: true,</text>
+  <text x="170" y="582" fill="#8EB4FF" font-family="ui-monospace, Consolas, monospace" font-size="28">"note"</text>
+  <text x="280" y="582" fill="#F0C36A" font-family="ui-monospace, Consolas, monospace" font-size="28">: "keep this"</text>
+  <text x="140" y="640" fill="#D7E3F5" font-family="ui-monospace, Consolas, monospace" font-size="28">}</text>
+  <rect x="560" y="470" width="360" height="150" rx="18" fill="#102418" stroke="#3EE0B2"/>
+  <text x="590" y="530" fill="#3EE0B2" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Valid JSON</text>
+  <text x="590" y="572" fill="#C9EBD9" font-family="Segoe UI, Arial, sans-serif" font-size="22">Syntax checked locally</text>
+  <g transform="translate(820,140)">
+    <path d="M40 8 L70 20 V44 C70 66 56 82 40 90 C24 82 10 66 10 44 V20 Z" fill="#1A2E4A" stroke="#5B8CFF" stroke-width="3"/>
+    <path d="M28 46 L36 54 L54 34" fill="none" stroke="#3EE0B2" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <text x="100" y="800" fill="#F4F7FB" font-family="Segoe UI, Arial, sans-serif" font-size="32">Errors still land on a line and column.</text>
+  <text x="100" y="856" fill="#9FB0CC" font-family="Segoe UI, Arial, sans-serif" font-size="28">Runs in your browser. Nothing is uploaded.</text>
+  <rect x="100" y="910" width="280" height="54" rx="27" fill="url(#accent)"/>
+  <text x="140" y="945" fill="#07131A" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">Free · no signup</text>
+</svg>

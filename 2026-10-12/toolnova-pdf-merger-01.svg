@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e293b;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  
+  <!-- Browser window -->
+  <rect x="140" y="180" width="800" height="560" rx="20" fill="#1e293b" stroke="#334155" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="140" y="180" width="800" height="50" rx="20" fill="#0f172a"/>
+  <circle cx="170" cy="205" r="8" fill="#ef4444"/>
+  <circle cx="200" cy="205" r="8" fill="#f59e0b"/>
+  <circle cx="230" cy="205" r="8" fill="#22c55e"/>
+  <rect x="280" y="190" width="600" height="30" rx="8" fill="#334155"/>
+  <text x="590" y="211" font-family="Arial, sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle">toolnova.app/pdf-merger</text>
+  
+  <!-- PDF icons merging -->
+  <g transform="translate(280, 320)">
+    <!-- Left PDF -->
+    <rect x="0" y="0" width="140" height="180" rx="8" fill="#ef4444" filter="url(#shadow)"/>
+    <text x="70" y="100" font-family="Arial Black, Arial, sans-serif" font-size="48" fill="white" text-anchor="middle">PDF</text>
+    <text x="70" y="140" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">Doc 1</text>
+  </g>
+  
+  <g transform="translate(460, 320)">
+    <!-- Arrow -->
+    <polygon points="0,70 40,50 40,90" fill="#3b82f6"/>
+    <rect x="-20" y="65" width="40" height="10" fill="#3b82f6"/>
+  </g>
+  
+  <g transform="translate(540, 320)">
+    <!-- Right PDF -->
+    <rect x="0" y="0" width="140" height="180" rx="8" fill="#3b82f6" filter="url(#shadow)"/>
+    <text x="70" y="100" font-family="Arial Black, Arial, sans-serif" font-size="48" fill="white" text-anchor="middle">PDF</text>
+    <text x="70" y="140" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">Doc 2</text>
+  </g>
+  
+  <g transform="translate(720, 300)">
+    <!-- Merged PDF -->
+    <rect x="0" y="0" width="160" height="200" rx="8" fill="url(#accent)" filter="url(#shadow)"/>
+    <text x="80" y="90" font-family="Arial Black, Arial, sans-serif" font-size="36" fill="white" text-anchor="middle">MERGED</text>
+    <text x="80" y="130" font-family="Arial, sans-serif" font-size="20" fill="white" text-anchor="middle">PDF</text>
+    <text x="80" y="160" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">1 file</text>
+  </g>
+  
+  <!-- Privacy badge -->
+  <g transform="translate(140, 780)">
+    <rect x="0" y="0" width="220" height="60" rx="30" fill="#22c55e"/>
+    <text x="110" y="38" font-family="Arial, sans-serif" font-size="18" fill="white" text-anchor="middle" font-weight="bold">🔒 100% Private</text>
+  </g>
+  
+  <!-- Title -->
+  <text x="540" y="120" font-family="Arial Black, Arial, sans-serif" font-size="56" fill="white" text-anchor="middle">PDF Merger</text>
+  <text x="540" y="160" font-family="Arial, sans-serif" font-size="24" fill="#94a3b8" text-anchor="middle">Merge PDFs instantly in your browser</text>
+  
+  <!-- Brand -->
+  <text x="540" y="920" font-family="Arial Black, Arial, sans-serif" font-size="42" fill="url(#accent)" text-anchor="middle">ToolNova</text>
+  <text x="540" y="960" font-family="Arial, sans-serif" font-size="20" fill="#64748b" text-anchor="middle">Free • Privacy-First • 190+ Tools</text>
+  
+  <!-- Bottom accent -->
+  <rect x="0" y="1040" width="1080" height="40" fill="url(#accent)"/>
+</svg>

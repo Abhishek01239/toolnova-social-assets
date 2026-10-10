@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0c4a6e"/>
+      <stop offset="100%" style="stop-color:#164e63"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg2)"/>
+  <circle cx="540" cy="480" r="280" fill="none" stroke="#22d3ee" stroke-width="8" opacity="0.3"/>
+  <!-- Central QR -->
+  <g transform="translate(390,330)">
+    <rect width="300" height="300" fill="#fff" rx="16"/>
+    <rect x="15" y="15" width="90" height="90" fill="#0c4a6e"/>
+    <rect x="30" y="30" width="60" height="60" fill="#fff"/>
+    <rect x="42" y="42" width="36" height="36" fill="#0c4a6e"/>
+    <rect x="195" y="15" width="90" height="90" fill="#0c4a6e"/>
+    <rect x="210" y="30" width="60" height="60" fill="#fff"/>
+    <rect x="222" y="42" width="36" height="36" fill="#0c4a6e"/>
+    <rect x="15" y="195" width="90" height="90" fill="#0c4a6e"/>
+    <rect x="30" y="210" width="60" height="60" fill="#fff"/>
+    <rect x="42" y="222" width="36" height="36" fill="#0c4a6e"/>
+    <rect x="135" y="60" width="30" height="30" fill="#0c4a6e"/>
+    <rect x="60" y="135" width="30" height="30" fill="#0c4a6e"/>
+    <rect x="135" y="135" width="30" height="30" fill="#0c4a6e"/>
+    <rect x="195" y="135" width="30" height="30" fill="#0c4a6e"/>
+    <rect x="135" y="195" width="30" height="30" fill="#0c4a6e"/>
+  </g>
+  <!-- Lock -->
+  <g transform="translate(480,200)">
+    <rect x="20" y="40" width="80" height="60" rx="8" fill="#22d3ee"/>
+    <path d="M30 40 V25 Q30 10 60 10 Q90 10 90 25 V40" fill="none" stroke="#22d3ee" stroke-width="8"/>
+    <circle cx="60" cy="65" r="8" fill="#0c4a6e"/>
+  </g>
+  <text x="540" y="160" font-family="Arial, sans-serif" font-size="52" font-weight="bold" fill="#fff" text-anchor="middle">ToolNova</text>
+  <text x="540" y="900" font-family="Arial, sans-serif" font-size="40" fill="#e0f2fe" text-anchor="middle">QR Code Generator</text>
+  <text x="540" y="960" font-family="Arial, sans-serif" font-size="26" fill="#22d3ee" text-anchor="middle">Links • Wi-Fi • UPI • WhatsApp</text>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0c1222"/>
+      <stop offset="100%" style="stop-color:#111827"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg2)"/>
+  <circle cx="540" cy="420" r="220" fill="none" stroke="#22d3ee" stroke-width="3" opacity="0.3"/>
+  <rect x="390" y="270" width="300" height="300" rx="16" fill="#ffffff"/>
+  <g fill="#111827">
+    <rect x="410" y="290" width="60" height="60"/>
+    <rect x="610" y="290" width="60" height="60"/>
+    <rect x="410" y="490" width="60" height="60"/>
+    <rect x="500" y="400" width="30" height="30"/>
+    <rect x="550" y="400" width="30" height="30"/>
+    <rect x="500" y="450" width="30" height="30"/>
+  </g>
+  <rect x="300" y="620" width="480" height="180" rx="24" fill="#1e293b" stroke="#22d3ee" stroke-width="2"/>
+  <text x="540" y="680" font-family="system-ui,sans-serif" font-size="42" font-weight="700" fill="#22d3ee" text-anchor="middle">QR Code Generator</text>
+  <text x="540" y="730" font-family="system-ui,sans-serif" font-size="24" fill="#e2e8f0" text-anchor="middle">Free • Private • Browser-based</text>
+  <text x="540" y="770" font-family="system-ui,sans-serif" font-size="20" fill="#94a3b8" text-anchor="middle">PNG &amp; SVG • No signup • No watermarks</text>
+</svg>

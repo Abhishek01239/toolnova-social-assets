@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#111827;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1f2937;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ec4899;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg2)"/>
+  <!-- Large QR -->
+  <g transform="translate(290, 200)">
+    <rect width="500" height="500" fill="#ffffff" rx="30"/>
+    <!-- Position patterns -->
+    <rect x="30" y="30" width="120" height="120" fill="#111827"/>
+    <rect x="350" y="30" width="120" height="120" fill="#111827"/>
+    <rect x="30" y="350" width="120" height="120" fill="#111827"/>
+    <rect x="50" y="50" width="80" height="80" fill="#ffffff"/>
+    <rect x="370" y="50" width="80" height="80" fill="#ffffff"/>
+    <rect x="50" y="370" width="80" height="80" fill="#ffffff"/>
+    <rect x="70" y="70" width="40" height="40" fill="#8b5cf6"/>
+    <rect x="390" y="70" width="40" height="40" fill="#8b5cf6"/>
+    <rect x="70" y="390" width="40" height="40" fill="#8b5cf6"/>
+    <!-- Sample modules -->
+    <rect x="180" y="50" width="30" height="30" fill="#111827"/>
+    <rect x="230" y="50" width="30" height="30" fill="#111827"/>
+    <rect x="180" y="100" width="30" height="30" fill="#111827"/>
+    <rect x="280" y="150" width="30" height="30" fill="#111827"/>
+    <rect x="180" y="200" width="60" height="30" fill="#111827"/>
+    <rect x="250" y="250" width="30" height="60" fill="#111827"/>
+    <rect x="100" y="200" width="30" height="30" fill="#111827"/>
+    <rect x="150" y="280" width="30" height="30" fill="#111827"/>
+  </g>
+  <!-- Icons for types: link, wifi, upi -->
+  <g transform="translate(150, 760)">
+    <circle cx="40" cy="40" r="35" fill="#8b5cf6" opacity="0.9"/>
+    <text x="40" y="48" font-family="Arial" font-size="28" fill="white" text-anchor="middle">🔗</text>
+  </g>
+  <g transform="translate(490, 760)">
+    <circle cx="40" cy="40" r="35" fill="#ec4899" opacity="0.9"/>
+    <text x="40" y="48" font-family="Arial" font-size="28" fill="white" text-anchor="middle">📶</text>
+  </g>
+  <g transform="translate(830, 760)">
+    <circle cx="40" cy="40" r="35" fill="#06b6d4" opacity="0.9"/>
+    <text x="40" y="48" font-family="Arial" font-size="28" fill="white" text-anchor="middle">💳</text>
+  </g>
+  <text x="540" y="900" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#ffffff" text-anchor="middle">Links • Wi-Fi • UPI • WhatsApp</text>
+  <text x="540" y="960" font-family="Arial, sans-serif" font-size="32" fill="#a78bfa" text-anchor="middle">All private in your browser — ToolNova</text>
+</svg>

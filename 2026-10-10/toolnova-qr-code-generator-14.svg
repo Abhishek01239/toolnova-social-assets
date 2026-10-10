@@ -1,1 +1,50 @@
-$(cat /tmp/qr-gen-14.svg)
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0c1222"/>
+      <stop offset="50%" style="stop-color:#1a2332"/>
+      <stop offset="100%" style="stop-color:#0f172a"/>
+    </linearGradient>
+    <linearGradient id="teal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2dd4bf"/>
+      <stop offset="100%" style="stop-color:#0ea5e9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg2)"/>
+  <circle cx="200" cy="200" r="120" fill="#14b8a6" opacity="0.08"/>
+  <circle cx="880" cy="880" r="150" fill="#06b6d4" opacity="0.06"/>
+  <rect x="180" y="220" width="720" height="520" rx="28" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <g transform="translate(490,280)">
+    <rect x="20" y="40" width="80" height="70" rx="8" fill="url(#teal)"/>
+    <path d="M30 40 V28 C30 16 42 8 60 8 C78 8 90 16 90 28 V40" fill="none" stroke="#2dd4bf" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="60" cy="75" r="8" fill="#0f172a"/>
+  </g>
+  <g transform="translate(290,380)">
+    <rect width="500" height="280" rx="16" fill="#ffffff"/>
+    <rect x="30" y="30" width="70" height="70" fill="#0f172a"/>
+    <rect x="400" y="30" width="70" height="70" fill="#0f172a"/>
+    <rect x="30" y="180" width="70" height="70" fill="#0f172a"/>
+    <rect x="48" y="48" width="34" height="34" fill="#ffffff"/>
+    <rect x="418" y="48" width="34" height="34" fill="#ffffff"/>
+    <rect x="48" y="198" width="34" height="34" fill="#ffffff"/>
+    <rect x="130" y="40" width="25" height="25" fill="#0f172a"/>
+    <rect x="180" y="55" width="40" height="20" fill="#0f172a"/>
+    <rect x="250" y="40" width="30" height="40" fill="#0f172a"/>
+    <rect x="320" y="60" width="35" height="25" fill="#0f172a"/>
+    <rect x="50" y="120" width="40" height="30" fill="#0f172a"/>
+    <rect x="120" y="130" width="50" height="25" fill="#0f172a"/>
+    <rect x="200" y="110" width="30" height="50" fill="#0f172a"/>
+    <rect x="280" y="140" width="45" height="20" fill="#0f172a"/>
+    <rect x="360" y="120" width="25" height="40" fill="#0f172a"/>
+    <rect x="130" y="190" width="60" height="30" fill="#0f172a"/>
+    <rect x="220" y="200" width="40" height="35" fill="#0f172a"/>
+    <rect x="300" y="185" width="35" height="45" fill="#0f172a"/>
+  </g>
+  <g transform="translate(780,500)">
+    <path d="M0 20 L40 0 L80 20 V60 C80 90 40 110 40 110 C40 110 0 90 0 60 Z" fill="#14b8a6"/>
+    <path d="M40 35 L55 42 V62 C55 75 40 85 40 85 C40 85 25 75 25 62 V42 Z" fill="#0f172a"/>
+  </g>
+  <text x="540" y="820" text-anchor="middle" font-family="system-ui, sans-serif" font-size="52" font-weight="700" fill="#ffffff">QR Code Generator</text>
+  <text x="540" y="885" text-anchor="middle" font-family="system-ui, sans-serif" font-size="30" fill="#2dd4bf">Wi-Fi · UPI · WhatsApp · Links</text>
+  <text x="540" y="945" text-anchor="middle" font-family="system-ui, sans-serif" font-size="24" fill="#94a3b8">100% Private on ToolNova</text>
+</svg>

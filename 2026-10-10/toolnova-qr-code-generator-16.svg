@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c4a6e"/>
+      <stop offset="100%" stop-color="#082f49"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg2)"/>
+  <!-- Shield -->
+  <path d="M540 160 L780 260 V480 C780 680 660 820 540 880 C420 820 300 680 300 480 V260 Z" fill="#0ea5e9" opacity="0.15" stroke="#38bdf8" stroke-width="6"/>
+  <!-- QR in center -->
+  <g transform="translate(390, 340)">
+    <rect width="300" height="300" rx="16" fill="#fff"/>
+    <rect x="30" y="30" width="60" height="60" fill="#0c4a6e"/>
+    <rect x="110" y="30" width="30" height="30" fill="#0c4a6e"/>
+    <rect x="170" y="30" width="60" height="60" fill="#0c4a6e"/>
+    <rect x="30" y="110" width="30" height="30" fill="#0c4a6e"/>
+    <rect x="90" y="100" width="50" height="50" fill="#0c4a6e"/>
+    <rect x="170" y="110" width="30" height="30" fill="#0c4a6e"/>
+    <rect x="30" y="170" width="60" height="60" fill="#0c4a6e"/>
+    <rect x="120" y="180" width="30" height="30" fill="#0c4a6e"/>
+    <rect x="170" y="170" width="60" height="60" fill="#0c4a6e"/>
+    <circle cx="150" cy="150" r="40" fill="#0ea5e9"/>
+    <text x="150" y="160" text-anchor="middle" fill="#fff" font-family="system-ui, sans-serif" font-size="28" font-weight="700">QR</text>
+  </g>
+  <!-- Lock icon -->
+  <g transform="translate(470, 680)">
+    <path d="M70 20c-16 0-30 14-30 30v16H28c-6 0-10 4-10 10v40c0 6 4 10 10 10h84c6 0 10-4 10-10V76c0-6-4-10-10-10h-12V50c0-16-14-30-30-30zm0 16c8 0 14 6 14 14v16H56V50c0-8 6-14 14-14z" fill="#38bdf8"/>
+  </g>
+  <text x="540" y="220" text-anchor="middle" fill="#f0f9ff" font-family="system-ui, sans-serif" font-size="56" font-weight="700">QR Code Generator</text>
+  <text x="540" y="940" text-anchor="middle" fill="#bae6fd" font-family="system-ui, sans-serif" font-size="30">Wi-Fi • UPI • WhatsApp • Links</text>
+  <text x="540" y="1000" text-anchor="middle" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="34" font-weight="600">ToolNova</text>
+</svg>

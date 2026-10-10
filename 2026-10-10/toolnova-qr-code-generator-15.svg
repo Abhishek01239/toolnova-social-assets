@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14b8a6"/>
+      <stop offset="100%" stop-color="#0d9488"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <!-- Browser window -->
+  <rect x="140" y="180" width="800" height="620" rx="24" fill="#1e293b" stroke="#334155" stroke-width="4"/>
+  <rect x="140" y="180" width="800" height="60" rx="24" fill="#334155"/>
+  <circle cx="180" cy="210" r="8" fill="#ef4444"/>
+  <circle cx="210" cy="210" r="8" fill="#f59e0b"/>
+  <circle cx="240" cy="210" r="8" fill="#22c55e"/>
+  <!-- QR Code stylized -->
+  <g transform="translate(290, 320)">
+    <rect width="500" height="500" rx="12" fill="#fff"/>
+    <!-- QR pattern simplified -->
+    <rect x="40" y="40" width="80" height="80" fill="#0f172a"/>
+    <rect x="140" y="40" width="40" height="40" fill="#0f172a"/>
+    <rect x="220" y="40" width="80" height="80" fill="#0f172a"/>
+    <rect x="40" y="140" width="40" height="40" fill="#0f172a"/>
+    <rect x="140" y="140" width="80" height="80" fill="#0f172a"/>
+    <rect x="260" y="140" width="40" height="40" fill="#0f172a"/>
+    <rect x="40" y="220" width="80" height="80" fill="#0f172a"/>
+    <rect x="160" y="240" width="40" height="40" fill="#0f172a"/>
+    <rect x="240" y="220" width="80" height="80" fill="#0f172a"/>
+    <rect x="100" y="320" width="40" height="40" fill="#0f172a"/>
+    <rect x="180" y="340" width="60" height="60" fill="#0f172a"/>
+    <rect x="280" y="320" width="40" height="40" fill="#0f172a"/>
+    <!-- Center logo area -->
+    <rect x="190" y="190" width="120" height="120" rx="16" fill="url(#accent)"/>
+    <text x="250" y="265" text-anchor="middle" fill="#fff" font-family="system-ui, sans-serif" font-size="48" font-weight="700">QR</text>
+  </g>
+  <!-- Lock / privacy -->
+  <g transform="translate(720, 280)">
+    <circle cx="80" cy="80" r="70" fill="#14b8a6" opacity="0.2"/>
+    <path d="M80 40c-22 0-40 18-40 40v20h-10c-8 0-14 6-14 14v60c0 8 6 14 14 14h100c8 0 14-6 14-14v-60c0-8-6-14-14-14h-10V80c0-22-18-40-40-40zm0 20c11 0 20 9 20 20v20H60V80c0-11 9-20 20-20z" fill="#14b8a6"/>
+  </g>
+  <!-- Title -->
+  <text x="540" y="140" text-anchor="middle" fill="#f1f5f9" font-family="system-ui, sans-serif" font-size="52" font-weight="700">QR Code Generator</text>
+  <text x="540" y="860" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="28">Private • In-Browser • Free</text>
+  <text x="540" y="920" text-anchor="middle" fill="#14b8a6" font-family="system-ui, sans-serif" font-size="32" font-weight="600">ToolNova</text>
+</svg>

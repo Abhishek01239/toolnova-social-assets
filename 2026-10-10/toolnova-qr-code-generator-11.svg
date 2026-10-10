@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="100%" style="stop-color:#1e293b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#14b8a6"/>
+      <stop offset="100%" style="stop-color:#0d9488"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="80" y="80" width="920" height="920" rx="40" fill="#0f172a" stroke="url(#accent)" stroke-width="4"/>
+  <!-- Browser window -->
+  <rect x="180" y="180" width="720" height="520" rx="20" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+  <rect x="180" y="180" width="720" height="50" rx="20" fill="#334155"/>
+  <circle cx="210" cy="205" r="8" fill="#ef4444"/>
+  <circle cx="235" cy="205" r="8" fill="#f59e0b"/>
+  <circle cx="260" cy="205" r="8" fill="#10b981"/>
+  <!-- QR Code stylized -->
+  <rect x="340" y="280" width="400" height="400" fill="#ffffff" rx="10"/>
+  <rect x="360" y="300" width="80" height="80" fill="#0f172a"/>
+  <rect x="640" y="300" width="80" height="80" fill="#0f172a"/>
+  <rect x="360" y="580" width="80" height="80" fill="#0f172a"/>
+  <rect x="460" y="360" width="40" height="40" fill="#0f172a"/>
+  <rect x="520" y="360" width="40" height="40" fill="#0f172a"/>
+  <rect x="460" y="420" width="40" height="40" fill="#0f172a"/>
+  <rect x="580" y="480" width="40" height="40" fill="#0f172a"/>
+  <rect x="520" y="540" width="40" height="40" fill="#0f172a"/>
+  <rect x="640" y="480" width="40" height="40" fill="#0f172a"/>
+  <!-- Lock icon -->
+  <circle cx="540" cy="780" r="50" fill="url(#accent)"/>
+  <rect x="520" y="770" width="40" height="30" rx="5" fill="#ffffff"/>
+  <path d="M525 770 V755 A15 15 0 0 1 555 755 V770" stroke="#ffffff" stroke-width="4" fill="none"/>
+  <!-- Text -->
+  <text x="540" y="900" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#ffffff" text-anchor="middle">QR Code Generator</text>
+  <text x="540" y="960" font-family="Arial, sans-serif" font-size="28" fill="#14b8a6" text-anchor="middle">ToolNova • Private • Free</text>
+  <text x="540" y="1020" font-family="Arial, sans-serif" font-size="20" fill="#94a3b8" text-anchor="middle">Wi-Fi • UPI • WhatsApp • Links</text>
+</svg>

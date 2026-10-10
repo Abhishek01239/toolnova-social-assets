@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0c1222;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a2744;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="teal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#14b8a6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg2)"/>
+  <circle cx="100" cy="100" r="80" fill="#14b8a6" opacity="0.1"/>
+  <circle cx="980" cy="980" r="100" fill="#3b82f6" opacity="0.1"/>
+  <circle cx="980" cy="150" r="60" fill="#06b6d4" opacity="0.15"/>
+  <rect x="120" y="180" width="840" height="720" rx="32" fill="#111827" stroke="url(#teal)" stroke-width="3"/>
+  <text x="540" y="260" text-anchor="middle" fill="white" font-family="system-ui,sans-serif" font-size="48" font-weight="800">QR Code Generator</text>
+  <text x="540" y="310" text-anchor="middle" fill="#14b8a6" font-family="system-ui,sans-serif" font-size="22">Wi-Fi • UPI • WhatsApp • Links</text>
+  <g transform="translate(340, 360)">
+    <rect width="400" height="400" fill="white" rx="16"/>
+    <rect x="16" y="16" width="100" height="100" fill="#111827"/>
+    <rect x="284" y="16" width="100" height="100" fill="#111827"/>
+    <rect x="16" y="284" width="100" height="100" fill="#111827"/>
+    <rect x="36" y="36" width="60" height="60" fill="white"/>
+    <rect x="304" y="36" width="60" height="60" fill="white"/>
+    <rect x="36" y="304" width="60" height="60" fill="white"/>
+    <rect x="46" y="46" width="40" height="40" fill="#111827"/>
+    <rect x="314" y="46" width="40" height="40" fill="#111827"/>
+    <rect x="46" y="314" width="40" height="40" fill="#111827"/>
+    <rect x="140" y="40" width="18" height="18" fill="#111827"/>
+    <rect x="180" y="60" width="18" height="18" fill="#111827"/>
+    <rect x="220" y="40" width="18" height="18" fill="#111827"/>
+    <rect x="160" y="100" width="18" height="18" fill="#111827"/>
+    <rect x="200" y="120" width="18" height="18" fill="#111827"/>
+    <rect x="140" y="140" width="18" height="18" fill="#111827"/>
+    <rect x="180" y="160" width="18" height="18" fill="#111827"/>
+    <rect x="220" y="140" width="18" height="18" fill="#111827"/>
+    <rect x="260" y="100" width="18" height="18" fill="#111827"/>
+    <rect x="140" y="180" width="18" height="18" fill="#111827"/>
+    <rect x="180" y="200" width="18" height="18" fill="#111827"/>
+    <rect x="220" y="220" width="18" height="18" fill="#111827"/>
+    <rect x="260" y="180" width="18" height="18" fill="#111827"/>
+    <rect x="300" y="160" width="18" height="18" fill="#111827"/>
+    <rect x="140" y="240" width="18" height="18" fill="#111827"/>
+    <rect x="180" y="260" width="18" height="18" fill="#111827"/>
+    <rect x="220" y="240" width="18" height="18" fill="#111827"/>
+    <rect x="260" y="260" width="18" height="18" fill="#111827"/>
+  </g>
+  <g transform="translate(700, 500)">
+    <circle cx="0" cy="0" r="55" fill="#14b8a6" opacity="0.9"/>
+    <rect x="-18" y="-5" width="36" height="28" rx="4" fill="white"/>
+    <path d="M-12 -5 V-18 a12 12 0 0 1 24 0 V-5" stroke="white" stroke-width="4" fill="none"/>
+    <circle cx="0" cy="8" r="4" fill="#14b8a6"/>
+  </g>
+  <g transform="translate(200, 820)">
+    <rect width="200" height="50" rx="25" fill="#14b8a6" opacity="0.2"/>
+    <text x="100" y="32" text-anchor="middle" fill="#14b8a6" font-family="system-ui,sans-serif" font-size="18" font-weight="600">🔒 Private</text>
+  </g>
+  <g transform="translate(440, 820)">
+    <rect width="200" height="50" rx="25" fill="#3b82f6" opacity="0.2"/>
+    <text x="100" y="32" text-anchor="middle" fill="#3b82f6" font-family="system-ui,sans-serif" font-size="18" font-weight="600">🆓 Free</text>
+  </g>
+  <g transform="translate(680, 820)">
+    <rect width="200" height="50" rx="25" fill="#06b6d4" opacity="0.2"/>
+    <text x="100" y="32" text-anchor="middle" fill="#06b6d4" font-family="system-ui,sans-serif" font-size="18" font-weight="600">🌐 Browser</text>
+  </g>
+  <text x="540" y="950" text-anchor="middle" fill="#64748b" font-family="system-ui,sans-serif" font-size="18">ToolNova • No Signup • No Watermarks</text>
+</svg>

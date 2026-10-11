@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e293b;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#06b6d4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#22d3ee;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+  <!-- Background -->
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <!-- Subtle grid -->
+  <g opacity="0.08" stroke="#94a3b8" stroke-width="1">
+    <path d="M0 180 H1080 M0 360 H1080 M0 540 H1080 M0 720 H1080 M0 900 H1080"/>
+    <path d="M180 0 V1080 M360 0 V1080 M540 0 V1080 M720 0 V1080 M900 0 V1080"/>
+  </g>
+  <!-- Browser window -->
+  <g filter="url(#shadow)">
+    <rect x="90" y="140" width="900" height="620" rx="24" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+    <!-- Title bar -->
+    <rect x="90" y="140" width="900" height="56" rx="24" fill="#0f172a"/>
+    <circle cx="120" cy="168" r="8" fill="#ef4444"/>
+    <circle cx="148" cy="168" r="8" fill="#f59e0b"/>
+    <circle cx="176" cy="168" r="8" fill="#22c55e"/>
+    <text x="540" y="174" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#94a3b8" text-anchor="middle">Image Compressor</text>
+    <!-- Content area -->
+    <rect x="110" y="210" width="860" height="530" rx="12" fill="#0f172a"/>
+    <!-- Left: original image mock -->
+    <rect x="140" y="250" width="340" height="280" rx="12" fill="#1e293b" stroke="#475569" stroke-width="2"/>
+    <rect x="160" y="270" width="300" height="180" rx="8" fill="#334155"/>
+    <!-- Simple photo representation -->
+    <circle cx="220" cy="340" r="40" fill="#fbbf24"/>
+    <path d="M180 400 Q220 360 260 400 L300 370 L340 410 L340 430 L180 430 Z" fill="#22c55e"/>
+    <rect x="180" y="430" width="160" height="20" fill="#475569"/>
+    <text x="310" y="510" font-family="system-ui, sans-serif" font-size="16" fill="#94a3b8" text-anchor="middle">Original • 2.4 MB</text>
+    <!-- Right: compressed -->
+    <rect x="540" y="250" width="340" height="280" rx="12" fill="#1e293b" stroke="#06b6d4" stroke-width="3"/>
+    <rect x="560" y="270" width="300" height="180" rx="8" fill="#1e3a5f"/>
+    <circle cx="620" cy="340" r="40" fill="#fbbf24"/>
+    <path d="M580 400 Q620 360 660 400 L700 370 L740 410 L740 430 L580 430 Z" fill="#22c55e"/>
+    <rect x="580" y="430" width="160" height="20" fill="#475569"/>
+    <text x="710" y="510" font-family="system-ui, sans-serif" font-size="16" fill="#22d3ee" text-anchor="middle" font-weight="600">Compressed • 180 KB</text>
+    <!-- Arrow -->
+    <path d="M490 390 L530 390 L530 380 L560 400 L530 420 L530 410 L490 410 Z" fill="url(#accent)"/>
+    <!-- Quality slider -->
+    <text x="140" y="580" font-family="system-ui, sans-serif" font-size="18" fill="#e2e8f0" font-weight="600">Quality</text>
+    <rect x="220" y="568" width="400" height="8" rx="4" fill="#334155"/>
+    <rect x="220" y="568" width="280" height="8" rx="4" fill="url(#accent)"/>
+    <circle cx="500" cy="572" r="10" fill="#22d3ee"/>
+    <text x="650" y="580" font-family="system-ui, sans-serif" font-size="18" fill="#94a3b8">75%</text>
+  </g>
+  <!-- Badge -->
+  <g filter="url(#shadow)">
+    <rect x="320" y="800" width="440" height="80" rx="40" fill="#06b6d4"/>
+    <text x="540" y="850" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="700" fill="#0f172a" text-anchor="middle">100% Private • No Upload</text>
+  </g>
+  <!-- ToolNova branding -->
+  <text x="540" y="940" font-family="system-ui, -apple-system, sans-serif" font-size="42" font-weight="800" fill="#f8fafc" text-anchor="middle">ToolNova</text>
+  <text x="540" y="990" font-family="system-ui, sans-serif" font-size="22" fill="#94a3b8" text-anchor="middle">Image Compressor</text>
+</svg>

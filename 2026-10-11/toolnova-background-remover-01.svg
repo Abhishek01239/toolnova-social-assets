@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e293b;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#06b6d4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <!-- Browser window -->
+  <rect x="140" y="160" width="800" height="620" rx="20" fill="#1e293b" stroke="#334155" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="140" y="160" width="800" height="48" rx="20" fill="#0f172a"/>
+  <circle cx="172" cy="184" r="8" fill="#ef4444"/>
+  <circle cx="198" cy="184" r="8" fill="#f59e0b"/>
+  <circle cx="224" cy="184" r="8" fill="#10b981"/>
+  <text x="540" y="190" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="16" font-weight="500">toolnova-seven.vercel.app</text>
+  <!-- Before image -->
+  <rect x="200" y="250" width="320" height="280" rx="12" fill="#334155"/>
+  <circle cx="360" cy="360" r="70" fill="#f472b6"/>
+  <rect x="290" y="420" width="140" height="80" rx="8" fill="#a78bfa"/>
+  <text x="360" y="560" text-anchor="middle" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="18" font-weight="600">Before</text>
+  <!-- Arrow -->
+  <path d="M540 390 L620 390 L620 370 L660 410 L620 450 L620 430 L540 430 Z" fill="url(#accent)"/>
+  <!-- After image - transparent checker -->
+  <defs>
+    <pattern id="checker" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#e2e8f0"/>
+      <rect x="10" y="10" width="10" height="10" fill="#e2e8f0"/>
+      <rect x="10" y="0" width="10" height="10" fill="#f8fafc"/>
+      <rect x="0" y="10" width="10" height="10" fill="#f8fafc"/>
+    </pattern>
+  </defs>
+  <rect x="560" y="250" width="320" height="280" rx="12" fill="url(#checker)"/>
+  <circle cx="720" cy="360" r="70" fill="#f472b6"/>
+  <rect x="650" y="420" width="140" height="80" rx="8" fill="#a78bfa"/>
+  <text x="720" y="560" text-anchor="middle" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="18" font-weight="600">After · Transparent PNG</text>
+  <!-- Bottom text -->
+  <text x="540" y="860" text-anchor="middle" fill="#ffffff" font-family="system-ui, sans-serif" font-size="42" font-weight="700">Background Remover</text>
+  <text x="540" y="910" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="22">Remove backgrounds privately in your browser</text>
+  <!-- Privacy badge -->
+  <rect x="390" y="940" width="300" height="48" rx="24" fill="#0f172a" stroke="url(#accent)" stroke-width="2"/>
+  <text x="540" y="970" text-anchor="middle" fill="#06b6d4" font-family="system-ui, sans-serif" font-size="18" font-weight="600">🔒 100% Private · No Upload</text>
+  <text x="540" y="1020" text-anchor="middle" fill="#64748b" font-family="system-ui, sans-serif" font-size="16">ToolNova · Free Online Tools</text>
+</svg>

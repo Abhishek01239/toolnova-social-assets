@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e293b;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+  <!-- Background -->
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  
+  <!-- Browser window -->
+  <rect x="140" y="180" width="800" height="620" rx="24" fill="#ffffff" filter="url(#shadow)"/>
+  <rect x="140" y="180" width="800" height="56" rx="24" fill="#f1f5f9"/>
+  <rect x="140" y="220" width="800" height="16" fill="#f1f5f9"/>
+  <circle cx="180" cy="208" r="8" fill="#ef4444"/>
+  <circle cx="208" cy="208" r="8" fill="#f59e0b"/>
+  <circle cx="236" cy="208" r="8" fill="#22c55e"/>
+  
+  <!-- Input panel -->
+  <rect x="180" y="260" width="340" height="280" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="200" y="290" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="600" fill="#64748b">Input</text>
+  <text x="200" y="340" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="22" fill="#0f172a">Hello, ToolNova!</text>
+  <text x="200" y="380" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="22" fill="#0f172a">👋</text>
+  
+  <!-- Arrow -->
+  <polygon points="560,390 590,390 590,370 620,400 590,430 590,410 560,410" fill="#3b82f6"/>
+  
+  <!-- Output panel -->
+  <rect x="560" y="260" width="340" height="280" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="580" y="290" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="600" fill="#64748b">Base64</text>
+  <text x="580" y="340" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18" fill="#1e40af">SGVsbG8sIFRvb2xOb3Zh</text>
+  <text x="580" y="370" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18" fill="#1e40af">ISDwn5GL</text>
+  
+  <!-- Buttons -->
+  <rect x="200" y="580" width="180" height="48" rx="8" fill="#3b82f6"/>
+  <text x="290" y="610" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="600" fill="#ffffff" text-anchor="middle">Encode</text>
+  <rect x="400" y="580" width="180" height="48" rx="8" fill="#e2e8f0"/>
+  <text x="490" y="610" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="600" fill="#334155" text-anchor="middle">Decode</text>
+  
+  <!-- Title -->
+  <text x="540" y="140" font-family="system-ui, -apple-system, sans-serif" font-size="42" font-weight="700" fill="#ffffff" text-anchor="middle">Base64 Encoder</text>
+  
+  <!-- Privacy badge -->
+  <rect x="340" y="860" width="400" height="56" rx="28" fill="#22c55e"/>
+  <text x="540" y="896" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#ffffff" text-anchor="middle">100% Private • Runs in Browser</text>
+  
+  <!-- ToolNova branding -->
+  <text x="540" y="980" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="700" fill="#94a3b8" text-anchor="middle">ToolNova</text>
+</svg>

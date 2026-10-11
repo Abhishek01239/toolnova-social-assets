@@ -1,0 +1,48 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8fafc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e2e8f0;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <text x="540" y="90" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="48" font-weight="800" fill="#0f172a" text-anchor="middle">JSON Formatter</text>
+  <text x="540" y="140" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="24" font-weight="500" fill="#475569" text-anchor="middle">Beautify • Validate • Minify — Privately</text>
+  <g filter="url(#shadow)">
+    <rect x="90" y="200" width="900" height="620" rx="16" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+    <rect x="90" y="200" width="900" height="48" rx="16" fill="#f1f5f9"/>
+    <rect x="90" y="232" width="900" height="16" fill="#f1f5f9"/>
+    <circle cx="118" cy="224" r="8" fill="#ef4444"/>
+    <circle cx="146" cy="224" r="8" fill="#f59e0b"/>
+    <circle cx="174" cy="224" r="8" fill="#22c55e"/>
+    <text x="200" y="230" font-family="Inter, system-ui, sans-serif" font-size="14" fill="#64748b">toolnova — JSON Formatter</text>
+  </g>
+  <rect x="120" y="270" width="410" height="500" rx="8" fill="#1e293b"/>
+  <text x="140" y="310" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="16" fill="#94a3b8">Input</text>
+  <text x="140" y="350" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="18" fill="#f1f5f9">{"name":"ToolNova","tools":190,</text>
+  <text x="140" y="380" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="18" fill="#f1f5f9">"private":true,"free":true,</text>
+  <text x="140" y="410" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="18" fill="#f1f5f9">"features":["format","validate",</text>
+  <text x="140" y="440" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="18" fill="#f1f5f9">"minify"],"browserOnly":true}</text>
+  <rect x="550" y="270" width="410" height="500" rx="8" fill="#0f172a"/>
+  <text x="570" y="310" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="16" fill="#94a3b8">Formatted</text>
+  <text x="570" y="350" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="18" fill="#38bdf8">{</text>
+  <text x="590" y="380" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="18" fill="#fbbf24">"name"</text>
+  <text x="680" y="380" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="18" fill="#f1f5f9">: </text>
+  <text x="700" y="380" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="18" fill="#4ade80">"ToolNova"</text>
+  <text x="590" y="410" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="18" fill="#fbbf24">"tools"</text>
+  <text x="680" y="410" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="18" fill="#f1f5f9">: </text>
+  <text x="700" y="410" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="18" fill="#60a5fa">190</text>
+  <text x="590" y="440" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="18" fill="#fbbf24">"private"</text>
+  <text x="700" y="440" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="18" fill="#f1f5f9">: </text>
+  <text x="720" y="440" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="18" fill="#c084fc">true</text>
+  <text x="570" y="500" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="18" fill="#38bdf8">}</text>
+  <text x="520" y="520" font-family="Inter, system-ui, sans-serif" font-size="36" font-weight="700" fill="#3b82f6" text-anchor="middle">→</text>
+  <rect x="140" y="860" width="280" height="56" rx="28" fill="#dcfce7" stroke="#22c55e" stroke-width="2"/>
+  <text x="280" y="896" font-family="Inter, system-ui, sans-serif" font-size="18" font-weight="600" fill="#15803d" text-anchor="middle">100% Private • Browser Only</text>
+  <rect x="660" y="860" width="280" height="56" rx="28" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+  <text x="800" y="896" font-family="Inter, system-ui, sans-serif" font-size="18" font-weight="600" fill="#1d4ed8" text-anchor="middle">Free • No Sign-up</text>
+  <text x="540" y="1000" font-family="Inter, system-ui, sans-serif" font-size="28" font-weight="700" fill="#0f172a" text-anchor="middle">ToolNova</text>
+</svg>
